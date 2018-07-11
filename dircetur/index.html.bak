@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Direccion Regional de Comercio Exterior y Turismo</title>
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="icon" type="image/png" href="./images/escudo.png">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body background="./images/bg-mapa_3.jpg">
+	<header>
+		<img src="./images/LOGODIRCETURCOLOR.png" width="1154" height="285">
+		<div class="menu-bar">
+			<a href="#" class="btn_menu"><span class="icon-menu"></span>Menu</a>
+			
+		</div>
+		
+		<nav id="navegador">
+			<ul>
+				<li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="#"><span class="icon-library"></span>Institucional</a></li>
+				<li><a href="#"><span class="icon-folder-open"></span>Gestion</a></li>
+				<li><a href="#"><span class="icon-earth"></span>Comercio Exterior</a></li>
+				<li><a href="#"><span class="icon-office"></span>Turismo</a></li>
+				<li><a href="#"><span class="icon-basecamp"></span>Artesania</a></li>
+				<li><a href="#"><span class="icon-profile"></span>Datos Generales</a></li>
+				<li><a href="#"><span class="icon-user-tie"></span>Contactenos</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="menu.js"></script>
+
+
+</body>
+</html>
