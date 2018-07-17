@@ -1,0 +1,27 @@
+
+
+body, html{
+	height: 100%
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/bg-mapa_3.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contenedor
+{
+	width:400px;
+	height:400px;
+	margin:0 auto;
+	align-items: center;
+	background-color: #ff0000;
+	
+}
