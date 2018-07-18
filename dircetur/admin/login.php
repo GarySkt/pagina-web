@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="../images/escudo.png">
 	<link rel="stylesheet" type="text/css" href="../css/default.css">
 	<title>Inicio de Sesion - Administrador</title>
 </head>
@@ -11,14 +12,14 @@
 	<div id="contenedor">
 	    <header>    	
 	        <div id="logo">
-	        	<img src="../images/LOGODIRCETURCOLOR.png" alt="Logo Dircetur" height="80px" width="400px">
+	        	<img src="../images/LOGODIRECTUR .png" alt="Logo Dircetur" height="80px" width="400px" class="responsivelogo">
 	        </div>       
 	    </header>
 	    <section>
 	    	<div id="bloque_login">
 		        <div>
 			        <form id="form_login" method="post" action="../admin/control.php">
-				        <table width="250" height="200">
+				        <table>
 				        	<tr>
 				            	<td align="center">
 									<?php $error=$_GET['error']; 
@@ -28,12 +29,13 @@
 									?>
 				                </td>
 				            </tr>
+				            
 				        	<tr class="obj_login">
 				            	<td width="auto">Usuario</td>
 				            </tr>
 				            
 				            <tr class="obj_login">
-				            	<td><input type="text" name="usuario" class="campo" required></td>
+				            	<td><input type="text" name="usuario" class="campo" placeholder="Usuario" required autofocus></td>
 				            </tr>
 				            
 				            <tr class="obj_login">
@@ -41,7 +43,7 @@
 				            </tr>
 				            
 				            <tr class="obj_login">
-				            	<td><input type="password" name="password" class="campo" required></td>
+				            	<td><input type="password" name="password" class="campo" placeholder="Contraseña" required></td>
 				            </tr>
 				            
 				            <tr class="obj_login">

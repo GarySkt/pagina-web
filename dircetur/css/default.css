@@ -1,4 +1,7 @@
-
+*{
+	margin: 0px;
+	padding: 0px;
+}
 
 body, html{
 	height: 100%
@@ -18,10 +21,21 @@ body, html{
 }
 #contenedor
 {
-	width:400px;
-	height:400px;
-	margin:0 auto;
-	align-items: center;
-	background-color: #ff0000;
-	
+	width:440px;
+	height:440px;	
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #ff0000;	
+}
+#form_login{	
+	text-align: center;
+	text-anchor: #fff;
+}
+
+#logo{
+	padding: 20px;
+}
+#responsivelogo{
+	width: 100%;
+	height: auto;
 }
