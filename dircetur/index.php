@@ -14,18 +14,69 @@
 		
 	</div>
 	<div class="navbar" id="navbarId">
-		<a href="#inicio" class="fa fa-facebook">Inicio</a>
-		<a href="#inicio">Institucional</a>
-		<a href="#inicio">Gestion</a>
-		<a href="#inicio">Comercion</a>
-		<a href="#inicio">Turismo</a>
-		<a href="#inicio">Artesania</a>
-		<a href="#inicio">Datos Generales</a>
-		<a href="#inicio">Contactenos</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		
+			<a href="#">Inicio</a>
+			<div class="dropdown">
+				<button class="dropbtn">Institucional</button>
+				<div class="dropdown-content">
+					<a href="#">Mision y Vision</a>
+					<a href="#">Competencia y naturaleza</a>
+					<a href="#">Fines</a>
+					<a href="#">Funciones</a>
+					<a href="#">Organizacion</a>
+					<a href="#">Transparencia</a>
+				</div>				
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Gestion</button>
+				<div class="dropdown-content">
+					<a href="#">Actividades Oficiales</a>
+					<a href="#">Planeamiento y Organizacion</a>
+					<a href="#">Informacion Presupuestal</a>					
+				</div>				
+			</div>	
+			<div class="dropdown">
+				<button class="dropbtn">Comercio Exterior</button>
+				<div class="dropdown-content">
+					<a href="#">Objetivos</a>
+					<a href="#">Funciones</a>
+					<a href="#">Analisis Economico</a>
+					<a href="#">Analisis de Exportaciones</a>					
+				</div>				
+			</div>	
+			<div class="dropdown">
+				<button class="dropbtn">Turismo</button>
+				<div class="dropdown-content">
+					<a href="#">Objetivos</a>
+					<a href="#">Funciones</a>
+					<a href="#">Directorio de Empresas turisticas</a>
+					<a href="#">Recursos turisticos</a>					
+				</div>				
+			</div>	
+			<div class="dropdown">
+				<button class="dropbtn">Artesania</button>
+				<div class="dropdown-content">
+					<a href="#">Objetivos</a>
+					<a href="#">Funciones</a>
+					<a href="#">Base legal</a>
+					<a href="#">Asociaciones Artesanales</a>
+					<a href="#">Lineas Artesanales</a>
+					<a href="#">Formato de solicitud de inscripcion</a>					
+				</div>				
+			</div>	
+			<div class="dropdown">
+				<button class="dropbtn">Datos Generales</button>
+				<div class="dropdown-content">
+					<a href="#">Directorio institucional</a>
+					<a href="#">Formato de solicitud de acceso a la informacion publica</a>					
+				</div>				
+			</div>
+			<a href="#">Contactenos</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     		<i class="fa fa-bars"></i>
     	</a>
-
+		
+		
     	<script>
 			function myFunction() {
 			    var x = document.getElementById("navbarId");
@@ -35,7 +86,7 @@
 			        x.className = "navbar";
 			    }
 			}
-		</script>
+		</script>		
 	</div>
 
 	<div class="socialbar">
