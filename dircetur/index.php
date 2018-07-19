@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Direccion Regional de Comercio Exterior y Turismo</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="js/navbar_toggle.js">
 	<link rel="stylesheet" href="css/socialbar.css">	
@@ -15,9 +15,9 @@
 	</div>
 	<div class="navbar" id="navbarId">
 		
-			<a href="#">Inicio</a>
+			<a href="#"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
 			<div class="dropdown">
-				<button class="dropbtn">Institucional</button>
+				<button class="dropbtn"><i class="fa fa-university" aria-hidden="true"></i>Institucional</button>
 				<div class="dropdown-content">
 					<a href="#">Mision y Vision</a>
 					<a href="#">Competencia y naturaleza</a>
@@ -28,7 +28,7 @@
 				</div>				
 			</div>
 			<div class="dropdown">
-				<button class="dropbtn">Gestion</button>
+				<button class="dropbtn"><i class="fa fa-folder" aria-hidden="true"></i>Gestion</button>
 				<div class="dropdown-content">
 					<a href="#">Actividades Oficiales</a>
 					<a href="#">Planeamiento y Organizacion</a>
@@ -36,7 +36,7 @@
 				</div>				
 			</div>	
 			<div class="dropdown">
-				<button class="dropbtn">Comercio Exterior</button>
+				<button class="dropbtn"><i class="fa fa-truck" aria-hidden="true"></i>Comercio Exterior</button>
 				<div class="dropdown-content">
 					<a href="#">Objetivos</a>
 					<a href="#">Funciones</a>
@@ -45,7 +45,7 @@
 				</div>				
 			</div>	
 			<div class="dropdown">
-				<button class="dropbtn">Turismo</button>
+				<button class="dropbtn"><i class="fa fa-building" aria-hidden="true"></i>Turismo</button>
 				<div class="dropdown-content">
 					<a href="#">Objetivos</a>
 					<a href="#">Funciones</a>
@@ -54,7 +54,7 @@
 				</div>				
 			</div>	
 			<div class="dropdown">
-				<button class="dropbtn">Artesania</button>
+				<button class="dropbtn"><i class="fab fa-firstdraft"></i>Artesania</button>
 				<div class="dropdown-content">
 					<a href="#">Objetivos</a>
 					<a href="#">Funciones</a>
@@ -65,13 +65,13 @@
 				</div>				
 			</div>	
 			<div class="dropdown">
-				<button class="dropbtn">Datos Generales</button>
+				<button class="dropbtn"><i class="fas fa-info"></i>Datos Generales</button>
 				<div class="dropdown-content">
 					<a href="#">Directorio institucional</a>
 					<a href="#">Formato de solicitud de acceso a la informacion publica</a>					
 				</div>				
 			</div>
-			<a href="#">Contactenos</a>
+			<a href="#"><i class="fas fa-at"></i>Contactenos</a>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     		<i class="fa fa-bars"></i>
     	</a>
@@ -90,8 +90,8 @@
 	</div>
 
 	<div class="socialbar">
-		<a href="https://www.facebook.com/dircetur.regiontacna/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
-		<a href="https://www.youtube.com/channel/UC9vpMPOsoDL8m0YIwdD_MTA" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>				
+		<a href="https://www.facebook.com/dircetur.regiontacna/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.youtube.com/channel/UC9vpMPOsoDL8m0YIwdD_MTA" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>				
 	</div>
 	
 	
