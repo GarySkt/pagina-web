@@ -1,0 +1,29 @@
+.socialbar{
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform: translateY(-50%);
+}
+.socialbar a {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.socialbar a:hover {
+	background-color: red;
+	color: white;
+}
+
+.facebook{
+	background: #3B5998;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
