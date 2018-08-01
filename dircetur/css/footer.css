@@ -1,0 +1,32 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+li{
+	list-style-type: none;
+}
+
+li a {
+	margin: 5px;
+}
+
+
+
+.facebook-footer{
+	color: white;
+}
+
+.youtube-footer{
+	color: white;
+}
+
+.twitter-footer{
+	color: white;
+}

@@ -1,0 +1,11 @@
+html{
+  /*background-image: url(../images/bg-mapa_3.jpg);*/
+  background-color: gray;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}

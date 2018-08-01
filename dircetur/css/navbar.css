@@ -1,11 +1,8 @@
-body{
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-}
+
 .navbar{
 	background-color: #FF0000;
 	overflow: hidden;
-	margin: 0px 100px;
+	margin: 0;  
 }
 .navbar i {
   margin: 5px;
@@ -86,6 +83,9 @@ body{
     float: right;
     display: block;
 
+  }
+  .socialbar{
+    visibility: hidden;
   }
 }
 
