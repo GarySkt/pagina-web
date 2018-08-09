@@ -3,9 +3,45 @@ html{
   background-color: gray;
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat  
+  margin: auto;
+} 
+
 body{
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
+}
+#contenidogeneral
+{
+	width:1024px;
+	height:1020px;
+	margin:0 auto;
+	background-color:#666a76;
+}
+
+footer{	
+	padding: 10px;		
+	text-align:center;
+	color:#fff;	
+   	width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+
+li{
+	list-style-type: none;
+}
+
+li a {
+	margin: 5px;
+}
+footer p {
+	margin: 0 5px;
+}
+
+footer p a {
+	margin: 3px 0;
+	color: white;
 }

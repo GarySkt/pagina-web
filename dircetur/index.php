@@ -10,7 +10,10 @@
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="js/navbar_toggle.js">	
 	<!--socialbar -->
-	<link rel="stylesheet" href="css/socialbar.css">	
+	<link rel="stylesheet" href="css/socialbar.css">
+
+	<!--CARD-->	
+	<link rel="stylesheet" href="css/card.css">
 
 
 	<link rel="stylesheet" href="css/footer.css">
@@ -22,7 +25,10 @@
 	<link rel="icon" type="image/png" href="./images/escudo.png">
 </head>
 <body>
-	<!-- navbar-->
+
+	<div id="contenidogeneral">
+
+		<!-- navbar-->
 	<div class="navbar" id="navbarId">		
 			<a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
 			<div class="dropdown">
@@ -80,7 +86,7 @@
 					<a href="#">Formato de solicitud de acceso a la informacion publica</a>					
 				</div>				
 			</div>
-			<a href="#"><i class="fas fa-at"></i>Contactenos</a>
+			<a href="html/contactenos.php"><i class="fas fa-at"></i>Contactenos</a>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     		<i class="fa fa-bars"></i>
     	</a>
@@ -96,15 +102,21 @@
 		</script>		
 	</div>
 	<!-- navbar END-->
-	<div class="socialbar">
-		<a href="https://www.facebook.com/dircetur.regiontacna/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-		<a href="https://www.youtube.com/channel/UC9vpMPOsoDL8m0YIwdD_MTA" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
-		<a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>			
+	
+	<div class="card">
+		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
+		<div class="container">
+			<h4> <b>Noticia Nro1</b> </h4>
+			<p>Contenido de la noticia</p>
+		</div>
 	</div>
-	<!-- socialbar END-->
 	<footer class="footer">		
 		<div id="content-footer">
 			<p>Direccion regional de comercio exterior y turismo</p>
+			<p>Calle blondel Nro 50 2do Piso, Tacna - Perú</p>
+			<p>Telefono - (052) - 246944</p>
+			<p>Email - <a href="mailto:dirceturtacna@regiontacna.gob.pe">dirceturtacna@regiontacna.gob.pe</a></p>
+
 
 			<li>
 				<a href="https://www.facebook.com/dircetur.regiontacna/" target="_blank" class="facebook-footer"><i class="fab fa-facebook-f"></i></a>
@@ -114,6 +126,16 @@
 
 		</div>
 	</footer>
+		
+	</div>
+	<!-- SOCIALBAR-->
+	<div class="socialbar">
+		<a href="https://www.facebook.com/dircetur.regiontacna/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.youtube.com/channel/UC9vpMPOsoDL8m0YIwdD_MTA" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+		<a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>			
+	</div>
+	<!-- socialbar END-->
+	
 
 </body>
 </html>
