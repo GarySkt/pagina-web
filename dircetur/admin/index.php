@@ -1,3 +1,8 @@
+<?php session_start();
+if (!isset($_SESSION['usuario'])) {
+	header('Location: admin/login/login.php');
+}
+?>
 <!doctype html>
 <html>
 	<head>
@@ -10,6 +15,7 @@
 			  <button class="tablinks" onclick="abrirpestana(event, 'Noticias')" id="defaultOpen">Noticias</button>
 			  <button class="tablinks" onclick="abrirpestana(event, 'social_network')">Redes Sociales</button>
 			  <button class="tablinks" onclick="abrirpestana(event, 'Banner')">Banner</button>
+			  <button class="tablinks" onclick="abrirpestana(event, 'misionvision')">Mision y Vision</button>
 			</div>
 
 			<div id="Noticias" class="tabcontent">
@@ -32,8 +38,15 @@
 			</div>
 
 			<div id="Banner" class="tabcontent">
-			  <iframe src="admin.html" frameborder="0"></iframe>
+			  <iframe src="banner.html" frameborder="0"></iframe>
 			  
+			</div>
+
+			<div id="misionvision" class="tabcontent">
+
+				<iframe src="misionvision.html" frameborder="0"></iframe>
+
+				
 			</div>
 			<script>
 			function abrirpestana(evt, menuadmin) {
