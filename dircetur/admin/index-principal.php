@@ -1,7 +1,7 @@
 <?php session_start();
-if (!isset($_SESSION['usuario'])) {
-	header('Location: admin/login/login.php');
-}
+	if (!isset($_SESSION['usuario'])) {
+		header('Location: ../index.php');
+	}
 ?>
 <!doctype html>
 <html>
@@ -11,6 +11,9 @@ if (!isset($_SESSION['usuario'])) {
 		<link rel="stylesheet" href="../css/admin-index.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<body>
+			<div>
+				<a class="login-signup" href="../php/cerrarsesion.php">Cerrar Sesion</a>
+			</div>
 			<div class="tab">
 			  <button class="tablinks" onclick="abrirpestana(event, 'Noticias')" id="defaultOpen">Noticias</button>
 			  <button class="tablinks" onclick="abrirpestana(event, 'social_network')">Redes Sociales</button>

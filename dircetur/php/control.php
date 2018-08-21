@@ -1,27 +1,20 @@
-<?php
-include("../admin/conexcion.php");
-$usuario=$_POST['usuario'];
-$password=$_POST['password'];
-
-conectarse();
-
-$query = "SELECT * FROM usuario WHERE usuario='$usuario' AND contrasena= '$password'";
-
-$result = mysql_query($query);
-
-$row = mysql_fetch_assoc($result);
-
-if($row){
-	session_start();
-	$_SESSION['usuario'] = array('nom' => $row['nombres']);
-	header("Location:index.php");
+<?php session_start();
+if (isset($_SESSION['usuario'])){
+	header('Location:index-principal.php');	
 }
-else{
-	header("Location: ../admin/login/login.php?error=si");
+if ($_SERVER['REQUEST_METHOD']=='POST'){
+	$usuario = $_POST['usuario'];
+	$contrasena = $_POST['contrasena'];
+	require('../admin/conexion.php');
+	$consulta = $conexion -> prepare('SELECT * FROM USUARIO WHERE USUARIO=:usuario AND CONTRASENA=:contrasena');
+	$consulta -> execute(array(':usuario'=>$usuario, ':contrasena'=>$contrasena));
+	$resultado = $consulta -> fetch();
+	if ($resultado !== false) {
+		$_SESSION['usuario'] = $usuario;
+		header('Location: ../admin/index-principal.php');				
+
+	}else{
+		header('Location: admin/login/index-login.php');
+	}
 }
-
-mysql_free_result($rs);
-mysql_close($conn);
-
-
 ?>
