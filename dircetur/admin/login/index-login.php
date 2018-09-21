@@ -12,6 +12,7 @@ if (isset($_SESSION['usuario'])) {
 	<link rel="icon" type="image/png" href="../../images/escudo.png">
 	<link rel="stylesheet" href="../../css/admin-login.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<meta name="viewport" content="wight=device-width, initial-scale=1">
 </head>
 <body>	
 	<div class="contenedor">

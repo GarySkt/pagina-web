@@ -1,3 +1,6 @@
+<?php 
+require('php/app_top.php');
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,6 +106,34 @@
 	</div>
 	<!-- navbar END-->
 	
+	<div class="card">
+		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
+		<div class="container">
+			<h4> <b>Noticia Nro1</b> </h4>
+			<p>Contenido de la noticia</p>
+		</div>
+	</div>
+	<div class="card">
+		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
+		<div class="container">
+			<h4> <b>Noticia Nro1</b> </h4>
+			<p>Contenido de la noticia</p>
+		</div>
+	</div>
+	<div class="card">
+		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
+		<div class="container">
+			<h4> <b>Noticia Nro1</b> </h4>
+			<p>Contenido de la noticia</p>
+		</div>
+	</div>
+	<div class="card">
+		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
+		<div class="container">
+			<h4> <b>Noticia Nro1</b> </h4>
+			<p>Contenido de la noticia</p>
+		</div>
+	</div>
 	<div class="card">
 		<img src="images/slider/sli1.jpg" alt="imagen" style="width:100%">
 		<div class="container">
